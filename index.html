@@ -698,7 +698,7 @@ async function copyMins() {
 /* ── API — calls Netlify function proxy ── */
 async function api(system, messages, maxTokens) {
   try {
-    const res = await fetch('/netlify/functions/chat', {
+    const res = await fetch('/.netlify/functions/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
