@@ -1,18 +1,3 @@
 [build]
   functions = "functions"
   publish = "."
-```
-
-4. Commit changes
-
-**Then in Netlify:**
-1. Go to **Deploys → Trigger deploy → Clear cache and deploy site**
-2. Wait 30 seconds
-3. Try Keely
-
-Your repo should now look like this and nothing else:
-```
-functions/
-    chat.js
-index.html
-netlify.toml
